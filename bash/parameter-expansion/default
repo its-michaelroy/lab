@@ -1,0 +1,6 @@
+#!/bin/bash 
+
+#Parameter expansion (built-in, faster)
+name="Mike"
+echo "Hello, ${name:-User}"
+echo $name
